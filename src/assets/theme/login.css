@@ -1,0 +1,39 @@
+body {
+    /* fallback for old browsers */
+    background: #6a11cb;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+  }
+
+.card-theme {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+
+.card- {
+  padding: 0 20px;
+}
+
+.card- button {
+  margin-top: 5px;
+  width: 200px;
+}
+
+.card-title{
+  margin-bottom: 15px;
+  margin-right: 25% ;
+}
+
+small {
+  color: rgb(255, 51, 51);
+}
+
+.alert {
+  margin-top: 30px;
+}
