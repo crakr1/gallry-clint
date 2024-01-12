@@ -52,9 +52,7 @@ function Register() {
             })
         }
         catch(e){
-            if(e.response.status === 400){
-                notify()
-            }
+           
             console.log(e.message)
             setShowLoading(false)
         }

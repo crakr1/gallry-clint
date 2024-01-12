@@ -28,8 +28,8 @@ const notify = () => {
 
 function Login() {
 
-    const [email, setEmail] = useState()
-    const [password, setPassword] = useState()
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
     const [showLoading, setShowLoading] = useState(false)
 
     const history = useHistory()
@@ -57,10 +57,8 @@ function Login() {
                 setShowLoading(false)
             })
         } catch (e) {
-            if(e.response.status === 400){
-                notify()
-            }
-            console.log(e.message)
+           
+            console.log(e)
             setShowLoading(false)
         }
     }
